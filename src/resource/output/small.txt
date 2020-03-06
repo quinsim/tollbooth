@@ -1,0 +1,70 @@
+
+2 completed trips
+
+On-Road Report
+==============
+[ BEN_KENOBI] on #45, time    62
+
+
+SPEEDER REPORT
+==============
+Vehicle I_AM_STROOT, starting at time 61
+	from Rochester - Victor - I-490
+	to Syracuse - Fulton - I-690 - NY Route 690
+	 94.6 MpH
+
+BILLING INFORMATION
+===================
+[       DR_J] on #45, time    60; off #39, time   150: $ 2.46
+[I_AM_STROOT] on #45, time    61; off #39, time   100: $ 2.46
+Total: $ 4.92
+
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
+'q' to quit
+> b I_AM_STROOT
+[I_AM_STROOT] on #45, time    61; off #39, time   100: $ 2.46
+
+Vehicle total due: $ 2.46
+
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
+'q' to quit
+> b DR_J
+[       DR_J] on #45, time    60; off #39, time   150: $ 2.46
+
+Vehicle total due: $ 2.46
+
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
+'q' to quit
+> e 45
+
+EXIT 45 REPORT
+==============
+[       DR_J] on #45, time    60; off #39, time   150
+[I_AM_STROOT] on #45, time    61; off #39, time   100
+[ BEN_KENOBI] on #45, time    62
+
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
+'q' to quit
+> e 38
+
+EXIT 38 REPORT
+==============
+
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
+'q' to quit
+> e 39
+
+EXIT 39 REPORT
+==============
+[       DR_J] on #45, time    60; off #39, time   150
+[I_AM_STROOT] on #45, time    61; off #39, time   100
+
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
+'q' to quit
+> q
